@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background:whitesmoke;
+    color:yellow;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+   list-style: lower-alpha;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 20px ;
+}
+
+header nav ul li a {
+    color: pink;
+    text-decoration: cornflowerblue;
+}
+
+main {
+    padding: 80px 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 40px;
+    border-color: blue;
+    border-radius: 0%;
+}
+
+section h1 {
+    margin-top: 0;
+    
+}
+    
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img 1{
+    max-width: 100%;
+    height: auto;
+
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+}
+
+#contact-form button {
+    width: 100px;
+    padding: 10px;
+    background: plum;
+    color: white;
+    border: chartreuse;
+    cursor: pointer;
+}
+
+footer {
+    background: yellowgreen;
+    color:yellow;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer{
+    background-color: aquamarine;
+    padding: 12px;
+    text-align: center;
+    color: palevioletred;
+}
